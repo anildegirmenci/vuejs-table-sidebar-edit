@@ -1,0 +1,188 @@
+/* Global CSS */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+   font-family: 'Open Sans',serif;
+   background-color: #ebecef;
+}
+.linked{
+    background-color: #E9CF30;
+}
+.col-evreka-4{
+    flex: 1 0 25% !important; 
+    max-width: 30% !important;
+}
+/* Component CSS's */
+.btnTrue{
+    background-color: #3ba935;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    align-content: center;
+    border: none;
+    display: inline-block;
+}
+.btnTrue:hover {
+    background-color: #4CAF50;
+    border: none;
+  }
+.btnFalse{
+    background-color: #535A72;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 150px;
+    height: 35px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    align-content: center;
+    border: none;
+    display: inline-block;
+}
+.btnFalse:hover {
+    background-color: #4b5987;
+    border: none;
+  }
+.text{
+    color:#172C40;
+    font-size: 15;
+}
+.header h4{
+    font-weight:bold;
+    color: #172C40;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.tableActive{
+    background-color: #fbf5d6 !important;
+}
+.tabLabel{
+    font-size: 12px;
+    font-weight: bold;
+}
+.tabDesc{
+    font-size: 12px;
+    line-height: 0;
+    
+}
+.leftBorder{
+    border-left: 15px solid #E9CF30;
+}
+.tableRow{
+    background-color: #FFFFFF;
+    margin-left: 5px;
+}
+.tableRow .row{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.tableRow:not(.leftBorder){
+    padding-left: 25px;
+}
+.eventCard{
+    display: inline-block;
+    margin-top: 10px;
+}
+.tableActive:not(.leftBorder){
+    padding-left: 25px;
+}
+.rightBar{
+    margin-top: 4px;
+    padding-top: 10px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    font-weight:bolder;
+}
+.rightText{
+    flex-direction: row;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:40px;
+    font-size: 10px;
+    color:#172c49
+}
+.rightTextDesc{
+    font-weight: 400;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+#app{
+    width: 100%;
+}
+.ln-1{
+    line-height: 1;
+}
+.nav-tabs .nav-link{
+    font-family: 'Open Sans';
+    background-color: unset !important;
+    color: #ebecef;
+    font-size: 15px;
+}
+.nav-tabs .nav-link:hover{
+    border: unset;
+}
+.nav-tabs .nav-link.active{
+    border: none;
+    border-radius: unset;
+    border-color: #3ba935 !important;
+    border-bottom: 3px solid;
+    background-color: unset !important;
+}
+.imgCover:focus{
+    outline: none !important;
+}
+.selectActionButton{
+    background-color: #ebecef;
+    color: #172c49;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.selectActionButton h4{
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.selectActionButton p{
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 350;
+}
+.nextBtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.backBtn{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #172c49 !important;
+}
+.actionActive{
+    background-color: #535a72;
+    color:#fff
+}

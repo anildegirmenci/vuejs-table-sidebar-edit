@@ -1,4 +1,4 @@
-# Evreka - Waste management platform
+Table Edit with JSON data
 
 ## Project setup
 ```
